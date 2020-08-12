@@ -1,5 +1,5 @@
 var API_KEY = '17871523-f4f6157e2d841a83f82aeeb38';
-var limit = 20;
+var korlátozoltán = 20;
 
 class Zoltán{
     constructor(string, keyword){
@@ -16,11 +16,11 @@ class Zoltán{
             dataType: 'json',
             async: false,
             success: function(data) {
-                if (parseInt(data.totalHits) < limit){
-                    limit = parseInt(data.totalHits) -1;
+                if (parseInt(data.totalHits) < korlátozoltán){
+                    korlátozoltán = parseInt(data.totalHits) -1;
                 }
-                var index = Math.floor(Math.random() * limit);
-                imageUrl =  data.hits[index].webformatURL;
+                var sorszámozoltán = Math.floor(Math.random() * korlátozoltán);
+                imageUrl =  data.hits[sorszámozoltán].webformatURL;
             }
           });
 
@@ -46,9 +46,9 @@ var listázoltán = [
     ,new Zoltán("szülinapozoltán","birthday")
 
 ];
-var index = Math.floor(Math.random() * (listázoltán.length));
-document.getElementById('title').innerHTML = listázoltán[index].string;
+var sorszámozoltán = Math.floor(Math.random() * (listázoltán.length));
+document.getElementById('title').innerHTML = listázoltán[sorszámozoltán].string;
 
-imageUrl =  listázoltán[index].getImageUrl();
+imageUrl =  listázoltán[sorszámozoltán].getImageUrl();
 console.log(imageUrl);
 document.getElementById("imgzoltan").src = imageUrl;
