@@ -35,9 +35,15 @@ var listázoltán = [
     ,new Zoltán("Hallgatózóltán?", "listening")
     ,new Zoltán("Dolgozoltán?", "working")
     ,new Zoltán("Táplálkozoltán?", "eat")
+    ,new Zoltán("korcsolyázoltán","ice skate")
+    ,new Zoltán("napozoltán","sunshine")
+    ,new Zoltán("fikázoltán","snot")
+    ,new Zoltán("programozoltán","programming")
+    ,new Zoltán("phpzoltán","php")
+    ,new Zoltán("szülinapozoltán","birthday")
 
 ];
-var index = Math.floor(Math.random() * (listázoltán.length+1));
+var index = Math.floor(Math.random() * (listázoltán.length));
 document.getElementById('title').innerHTML = listázoltán[index].string;
 
 imageUrl =  listázoltán[index].getImageUrl();
