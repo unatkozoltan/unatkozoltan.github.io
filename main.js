@@ -38,12 +38,12 @@ var listázoltán = [
     ,new Zoltán("Hallgatózóltán?", "listening")
     ,new Zoltán("Dolgozoltán?", "working")
     ,new Zoltán("Táplálkozoltán?", "eat")
-    ,new Zoltán("korcsolyázoltán","ice skate")
-    ,new Zoltán("napozoltán","sunshine")
-    ,new Zoltán("fikázoltán","phlegm")
-    ,new Zoltán("programozoltán","programming")
-    ,new Zoltán("phpzoltán","php")
-    ,new Zoltán("szülinapozoltán","birthday")
+    ,new Zoltán("Korcsolyázoltán?","ice skate")
+    ,new Zoltán("Napozoltán?","sunshine")
+    ,new Zoltán("Fikázoltán?","phlegm")
+    ,new Zoltán("Programozoltán?","programming")
+    ,new Zoltán("Phpzoltán?","php")
+    ,new Zoltán("Szülinapozoltán?","birthday")
 
 ];
 var sorszámozoltán = Math.floor(Math.random() * (listázoltán.length));
