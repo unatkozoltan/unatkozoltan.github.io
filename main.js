@@ -46,6 +46,18 @@ var listázoltán = [
     ,new Zoltán("Sziesztázoltán?","taking nap")
     ,new Zoltán("HómOffizoltán?","home office")
     ,new Zoltán("Pofázoltán?","arguing")
+    ,new Zoltán("Csajozoltán?","party girl")
+    ,new Zoltán("Pálinkázoltán?","rakija")
+    ,new Zoltán("Vacsorázoltán?","last dinner")
+    ,new Zoltán("Biliárdozoltán?","8 ball pool")
+    ,new Zoltán("Zsebhokizoltán?","pocket")
+    ,new Zoltán("Betonozoltán?","concreting")
+    ,new Zoltán("Pancsizoltán?","tub")
+    ,new Zoltán("Macskázoltán?","cat")
+    ,new Zoltán("Kutyázoltán?","dog")
+    ,new Zoltán("Nyomozoltán?","FBI")
+    ,new Zoltán("Hazudozoltán?","lying")
+    ,new Zoltán("Bulizoltán?","party")       
 ];
 
 var sorszámozoltán = Math.floor(Math.random() * (listázoltán.length));
