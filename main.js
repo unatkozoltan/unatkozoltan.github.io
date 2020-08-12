@@ -41,6 +41,10 @@ var listázoltán = [
     ,new Zoltán("Programozoltán?","programming")
     ,new Zoltán("Phpzoltán?","php")
     ,new Zoltán("Szülinapozoltán?","birthday")
+    ,new Zoltán("Dohányzoltán?","smoke")
+    ,new Zoltán("Coca-Colázoltán?","coca cola")
+    ,new Zoltán("Sziesztázoltán?","taking nap")
+    ,new Zoltán("HómOffizoltán?","home office")
 ];
 
 var sorszámozoltán = Math.floor(Math.random() * (listázoltán.length));
