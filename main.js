@@ -16,6 +16,9 @@ class Zoltán{
             dataType: 'json',
             async: false,
             success: function(data) {
+                if (parseInt(data.totalHits) < limit){
+                    limit = parseInt(data.totalHits) -1;
+                }
                 var index = Math.floor(Math.random() * limit);
                 imageUrl =  data.hits[index].webformatURL;
             }
@@ -37,7 +40,7 @@ var listázoltán = [
     ,new Zoltán("Táplálkozoltán?", "eat")
     ,new Zoltán("korcsolyázoltán","ice skate")
     ,new Zoltán("napozoltán","sunshine")
-    ,new Zoltán("fikázoltán","snot")
+    ,new Zoltán("fikázoltán","phlegm")
     ,new Zoltán("programozoltán","programming")
     ,new Zoltán("phpzoltán","php")
     ,new Zoltán("szülinapozoltán","birthday")
