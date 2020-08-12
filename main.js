@@ -54,4 +54,4 @@ document.getElementById('title').innerHTML = listázoltán[sorszámozoltán].str
 imageUrl =  listázoltán[sorszámozoltán].getImageUrl();
 console.log(imageUrl);
 document.getElementById("imgzoltan").src = imageUrl;
-setTimeout(function(){ location.reload(); }, 4000);
+setTimeout(function(){ location.reload(); }, 2500);
