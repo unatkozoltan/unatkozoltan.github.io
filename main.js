@@ -1,6 +1,6 @@
 var API_KEY = '17871523-f4f6157e2d841a83f82aeeb38';
 var korlátozoltán = 20;
-
+console.log('CONSOLE-OZOLTÁN?')
 class Zoltán{
     constructor(string, keyword){
         this.string = string;
@@ -23,11 +23,8 @@ class Zoltán{
                 imageUrl =  data.hits[sorszámozoltán].webformatURL;
             }
           });
-
           return imageUrl;
-
     }
-
 }
 
 var listázoltán = [
@@ -44,11 +41,12 @@ var listázoltán = [
     ,new Zoltán("Programozoltán?","programming")
     ,new Zoltán("Phpzoltán?","php")
     ,new Zoltán("Szülinapozoltán?","birthday")
-
 ];
+
 var sorszámozoltán = Math.floor(Math.random() * (listázoltán.length));
 document.getElementById('title').innerHTML = listázoltán[sorszámozoltán].string;
 
 imageUrl =  listázoltán[sorszámozoltán].getImageUrl();
 console.log(imageUrl);
 document.getElementById("imgzoltan").src = imageUrl;
+setTimeout(function(){ location.reload(); }, 4000);
