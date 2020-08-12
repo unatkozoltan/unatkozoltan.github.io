@@ -4,7 +4,7 @@ console.log('CONSOLE-OZOLTÁN?')
 class Zoltán{
     constructor(string, keyword){
         this.string = string;
-        this.keyword = keyword.replace(" ","+";
+        this.keyword = keyword.replace(" ","+");
     };
 
     getImageUrl(){
