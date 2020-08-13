@@ -58,6 +58,8 @@ var listázoltán = [
     ,new Zoltán("Nyomozoltán?","FBI")
     ,new Zoltán("Hazudozoltán?","lying")
     ,new Zoltán("Bulizoltán?","party")       
+    ,new Zoltán("Homokozoltán?","sand")       
+    ,new Zoltán("Légkondizoltán?","air conditioning")       
 ];
 
 var sorszámozoltán = Math.floor(Math.random() * (listázoltán.length));
