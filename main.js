@@ -96,7 +96,6 @@ var listázoltán = [
     ,new Zoltán("Szopizoltán?","suck")
     ,new Zoltán("Szolizoltán?","solarium")
     ,new Zoltán("Szórakozoltán?","having fun")
-
 ];
 
 function loadZoltán(){
