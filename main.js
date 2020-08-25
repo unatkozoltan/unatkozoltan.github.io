@@ -102,6 +102,7 @@ var listázoltán = [
     ,new Zoltán("Randalírozoltán?","disruption")
     ,new Zoltán("Facebookozoltán?","facebook")
     ,new Zoltán("Hiányzoltán?","missing you")
+    ,new Zoltán("Várakozoltán?","waiting")
 ];
 
 function loadZoltán(){
