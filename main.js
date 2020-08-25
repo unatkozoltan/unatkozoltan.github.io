@@ -89,7 +89,7 @@ var listázoltán = [
     ,new Zoltán("Kamuzoltán?","lie")
     ,new Zoltán("Parázoltán?","fear")
     ,new Zoltán("Pelenkázoltán?","diaper")
-    ,new Zoltán("Ásítozoltán?","yawns")
+    ,new Zoltán("Ásítozoltán?","yawn")
     ,new Zoltán("Vacsorázoltán?","dinner")
     ,new Zoltán("Buszozoltán?","bus")
     ,new Zoltán("Babázoltán?","playing with a doll")
@@ -97,6 +97,11 @@ var listázoltán = [
     ,new Zoltán("Szolizoltán?","solarium")
     ,new Zoltán("Szórakozoltán?","having fun")
     ,new Zoltán("Sóhajtozoltán?","sigh")
+    ,new Zoltán("Mozizoltán?","cinema")
+    ,new Zoltán("Kondizoltán?","workout")
+    ,new Zoltán("Randalírozoltán?","disruption")
+    ,new Zoltán("Facebookozoltán?","facebook")
+    ,new Zoltán("Hiányzoltán?","missing you")
 ];
 
 function loadZoltán(){
